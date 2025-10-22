@@ -1,8 +1,8 @@
 package com.novahabitat.controller;
 
+import com.novahabitat.service.IMaterialService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
-import com.novahabitat.service.IMaterialService;
 import com.novahabitat.dto.MaterialDTO;
 import com.novahabitat.model.Material;
 import org.modelmapper.ModelMapper;
